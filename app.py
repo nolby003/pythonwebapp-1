@@ -19,8 +19,7 @@ def user():
 def mytemplate():
    #Create a template
    load_dotenv()  
-   text = 'foo'
-   return text 
+   return 'foo'
    # strTemplate = "<form action=""/action_page.php"">" 
    # strTemplate = strTemplate + "<table>{% for dbfield in dbfield_list %}"
    # strTemplate = strTemplate + "<tr> <td> <label for='fname'>{{dbfield}}</label> </td>"
